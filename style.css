@@ -4,14 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+/* body */
 body {
     background-color: #0d1117;
     color: #f0f6fc;
     min-height: 100vh;
 
 }
-
+/* nav */
 nav ul li {
     min-height: 45px;
     min-width: 375px;
@@ -22,14 +22,13 @@ nav ul li {
     font-size: 22px;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;  
 }
-
+/* section - 1 */
 .container h1 {
     width: 350px;
     font-size: 50px;
-    padding: 10px;
+    padding: 2px;
    
 
 }
@@ -40,7 +39,7 @@ main .main-section h2 {
     display: flex;
     font-size: 30px;
     padding: 10px;
-    margin: 20px 20px 20px 0px;
+    margin: 5px 5px 5px 0px;
 }
 .btn button {
     height: 65px;
@@ -84,6 +83,8 @@ main .main-section h2 {
     justify-content: center;
       border-radius: 20%;
 }
+/* section - 2 */
+
 .tech-stack h2{
    color:  #5af87a;
    margin: 40px 0px;
@@ -183,37 +184,9 @@ main .main-section h2 {
     display: flex;
        
 }
-.prbtn1 button {
-    border: #238636;
-    height: 40px;
-    width: 215px;
-    border-radius: 13px;
-    background-color: #238636;
-    color: #ffffff;
-    text-decoration: none;
-    margin: 5px;
-    padding: 5px 15px;
-}
-.prbtn1 button a{
-    border: #238636;
-    height: 40px;
-    width: 150px;
-    border-radius: 13px;
-    background-color: #238636;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 20px;
-   
-   
-}
-.prbtn1 button:hover {
-    background-color: #50b46e;
-    transform: translateY(-2px);
-}
-.prbtn1 button a:hover {
-    background-color: #3cad5e;
-    transform: translateY(-2px);
-}
+
+
+
 .cap2 .capsules{
   border: 1px solid green;
  margin: 3px;
@@ -226,7 +199,7 @@ main .main-section h2 {
     display: flex;
        
 }
-.prbtn2 button {
+.prbtn a {
     border: #238636;
     height: 40px;
     width: 215px;
@@ -236,27 +209,18 @@ main .main-section h2 {
     text-decoration: none;
     margin: 5px;
     padding: 5px 15px;
-}
-.prbtn2 button a{
     border: #238636;
-    height: 40px;
-    width: 150px;
-    border-radius: 13px;
-    background-color: #238636;
-    color: #ffffff;
+     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
-   
-   
 }
-.prbtn2 button:hover {
-    background-color: #50b46e;
-    transform: translateY(-2px);
-} 
-.prbtn2 button a:hover {
+
+.prbtn  a:hover {
     background-color: #3cad5e;
     transform: translateY(-2px);
 }
+
+/* section 3 */
 .about h2{
    color:  #5af87a;
    margin: 40px 0px;
@@ -307,7 +271,7 @@ img{
     gap: 50px;
     flex-wrap: wrap;
 }
-
+ /* .connect-section */
 .connect-section {
     padding: 60px 20px;
     width: 100%;
